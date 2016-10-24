@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tutorial settings -->
+    <bool name="show_tutorials_instead_of_app">false</bool> <!-- Be careful ! Setting this to true prevent the app from working ! It will only display tutorial activities -->
+
+	<!-- Push notification settings -->
+      <!--Phone中配置  -->
+	<string name="default_domain">sip.linphone.org</string>
+	<bool name="enable_call_notification">true</bool>
+	<bool name="disable_chat">false</bool>
+	<bool name="allow_ringing_while_early_media">true</bool>
+	<bool name="auto_answer_calls">false</bool>
+	<string name="push_sender_id">a2c29623ef7435e35426175f4bd755d0</string>
+	<bool name="enable_push_id">true</bool>
+</resources>
+

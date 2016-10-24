@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qwayphone.MainActivity" >
+
+
+    <LinearLayout
+        android:id="@+id/login_editor_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15.0dp"
+        android:layout_marginRight="15.0dp"
+        android:layout_marginTop="25.0dp"
+        android:background="@drawable/qv_qchat_login_back"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/usercode_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+             android:orientation="horizontal" >
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center_vertical"
+            	android:layout_marginLeft="10.0dip"
+            	android:src="@drawable/qv_qchat_user_user"/>
+            
+            <EditText android:id="@+id/et_appId"
+                android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+            	android:hint="@string/input_phone_placeholder"
+            	android:paddingLeft="5.0dip"
+            	android:background="@null"
+            	android:textSize="13.0sp"
+            	android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/userpwd_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+             android:orientation="horizontal" >
+            <ImageView 
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_gravity="center_vertical"
+            	android:layout_marginLeft="10.0dip"
+            	android:src="@drawable/qv_qchat_user_pwd"/>
+            
+            <EditText android:id="@+id/et_memberid"
+                android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+            	android:background="@null"
+            	android:hint="@string/input_password_placeholder"
+        		android:paddingLeft="5.0dip"
+        		android:textSize="13.0sp"
+        		android:singleLine="true"
+        		android:inputType="textPassword"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_memberkey"
+        android:layout_width="match_parent"
+       android:layout_height="40dp"
+        android:layout_below="@+id/login_editor_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="请输入memberkey"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:inputType="textPassword" />
+
+    <RelativeLayout
+        android:id="@+id/login_btn_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="38.0dp"
+        android:layout_below="@id/et_memberkey"
+        android:layout_marginLeft="15.0dp"
+        android:layout_marginRight="15.0dp"
+        android:layout_marginTop="25.0dp"
+        android:background="@drawable/qv_qchat_callforward_next"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/login_btn_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title_login"
+            android:textColor="#ffffff"
+            android:textSize="13.0sp" />
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>

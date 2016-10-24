@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/callviewbg">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="40dp"
+        android:text="18000000"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:id="@+id/tv_name"/>
+
+   
+    <RelativeLayout
+        android:id="@+id/rl_hub"
+        android:layout_width="fill_parent"
+        android:layout_height="38.0dp"
+        android:layout_marginLeft="15.0dp"
+        android:layout_marginRight="15.0dp"
+        android:layout_marginTop="25.0dp"
+        android:background="@drawable/qv_qchat_callforward_next"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/login_btn_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/hub"
+            android:textColor="#ffffff"
+            android:textSize="13.0sp" />
+    </RelativeLayout>
+        <RelativeLayout
+        android:id="@+id/rl_answer"
+        android:layout_width="fill_parent"
+        android:layout_height="38.0dp"
+        android:layout_marginLeft="15.0dp"
+        android:layout_marginRight="15.0dp"
+        android:layout_marginTop="25.0dp"
+        android:background="@drawable/qv_qchat_callforward_next"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/answer"
+            android:textColor="#ffffff"
+            android:textSize="13.0sp" />
+    </RelativeLayout>
+ 
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="service_name">Linphone Service</string>
+    <string name="input_phone_placeholder">请输入APPID</string>
+    <string name="input_password_placeholder">请输入memberid</string>
+    <string name="title_login">登录</string>
+    <string name="call">拨打电话</string>
+    <string name="qv_qchat_call_keybord_text">键盘</string>
+    <string name="qv_qchat_call_speak_text">免提</string>
+    <string name="hub">掛斷</string>
+    <string name="answer">接聽</string>
+    
+    <string name="app_name">QwayPhone</string>
+    <string name="unknown_incoming_call_name">Unknown</string>
+    <string name="incall_notif_active">Audio call ongoing</string>
+    <string name="incall_notif_paused">Paused call ongoing</string>
+    <string name="incall_notif_video">Video capturing call ongoing</string>
+    <string name="pref_transport_udp">UDP</string>
+    <string name="pref_transport_tcp">TCP</string>
+    <string name="pref_transport_tls">TLS</string>
+</resources>

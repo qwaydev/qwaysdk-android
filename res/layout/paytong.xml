@@ -1,0 +1,197 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/numpanel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="#00587156"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/dial_btn_num1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_1_normal"
+                android:textColor="#ff567899"
+                android:textSize="14.0sp" />
+
+            <ImageButton
+                android:id="@+id/dial_btn_num2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_2_normal" />
+
+            <ImageButton
+                android:id="@+id/dial_btn_num3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_3_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/dial_btn_num4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_4_normal" />
+
+            <ImageButton
+                android:id="@+id/dial_btn_num5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_5_normal" />
+
+            <ImageButton
+                android:id="@+id/dial_btn_num6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_6_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/dial_btn_num7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_7_normal" />
+
+            <ImageButton
+                android:id="@+id/dial_btn_num8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_8_normal" />
+
+            <ImageButton
+                android:id="@+id/dial_btn_num9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_9_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/dial_btn_xin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_star_normal" />
+
+            <ImageButton
+                android:id="@+id/dial_btn_num0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_0_normal" />
+
+            <ImageButton
+                android:id="@+id/dial_btn_jing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/digit_dial_btn_bg_normal"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:src="@drawable/dial_num_pound_ex_normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    
+    
+    
+
+</LinearLayout>

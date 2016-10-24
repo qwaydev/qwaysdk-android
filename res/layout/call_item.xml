@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+                    <LinearLayout
+                        android:id="@+id/keypad_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="60dp"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="onClick"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/keypad_imageview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/qv_qchat_calling_keyword_pressed" />
+
+                        <TextView
+                            android:id="@+id/keypad_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/qv_qchat_call_keybord_text"
+                            android:textColor="#ffffff"
+                            android:textSize="11.0sp" />
+                    </LinearLayout>
+
+              
+
+                    <LinearLayout
+                        android:id="@+id/speaker_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                          android:layout_marginTop="10dp"
+                        android:layout_marginLeft="60dp"
+                        android:gravity="center"
+                        android:onClick="onClick"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/speaker_imageview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/qv_qchat_calling_handfree_pressed" />
+
+                        <TextView
+                            android:id="@+id/speaker_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/qv_qchat_call_speak_text"
+                            android:textColor="#ffffff"
+                            android:textSize="11.0sp" />
+                    </LinearLayout>
+
+</RelativeLayout>
